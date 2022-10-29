@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .header-menu {
+        height: 50px;
+        background-color: black;
+        border: 1px solid #CDCDCD;
+        padding: 0;
+        margin: 0;
+    }
+    .header-menu ul{
+        padding: 0;
+    }
+    .header-menu li {
+        color: bisque;
+        list-style: none;
+        display: inline-block;
+        
+    }
+    .header-menu li a {
+        width: 50px;
+        display: block;
+        text-decoration: none;
+        text-align: left;
+        color:wheat;
+        padding-right: 10px;
+    }
+    .right-content {
+        background-color: #CDCDCD;
+        width: 10%;
+        float: right;
+        padding-bottom: 255px;
+
+    }
+
+    .right-content-first{
+        box-sizing: border-box;
+        background-color: aqua;
+        text-align: center;
+        padding: 15px;
+        margin: 10px;
+    }
+    .right-content-second {
+        box-sizing: border-box;
+        background-color: red;
+        text-align: center;
+        padding: 15px;
+        margin: 10px;   
+    }
+
+    .center-content {
+        background-color: antiquewhite;
+        width: 80%;
+        float: left;
+        padding-bottom: 142px;
+    }
+
+    .left-content {
+        background-color: #CDCDCD;
+        width: 10%;
+        float: left;
+        padding-bottom: 280px;
+    }
+    .left-content div {
+        box-sizing: border-box;
+        background-color: aquamarine;
+        width: 50px;
+    }
+    .left-content li {
+        list-style: none;
+        padding-top: 15px;
+    }
+    .left-content li a {
+        color: blue;
+        text-decoration: none;
+    }
+    .left-content ul {
+       margin: auto;
+    }
+    .footer{
+     height: 50px;
+     clear: both;
+     border: 1px solid #CDCDCD;
+     background-color: #F8F8FF;
+     text-align: center;
+}
+</style>
+<body>
+    <nav class="header-menu">
+        <ul>
+            <li><a href="#">Logo</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Contact</a></li>
+            <li style="float: right ; padding:0;"><a href="#">Login</a></li>
+        </ul>
+    </nav>
+    <main class="main-content">
+        <div class="left-content">
+            <ul>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </div>
+        <div class="center-content">
+            <h1>Welcome</h1>
+            <p>Aural style sheets use a combination of speech synthesis and sound effects to make the user listen to information, instead of reading information.
+                Some CSS properties are animatable, meaning that they can be used in animations and transitions. Animatable properties can change gradually from one value to another, like size, numbers, percentage and color.
+                The numbers in the table specifies the first browser version that fully support CSS animations.
+            </p>
+            <h2>Test</h2>
+            <p>Lorem ipsum...</p>
+        </div>
+        <div class="right-content">
+            <div class="right-content-first">ADS</div>
+            <div class="right-content-second">ADS</div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>footer Text</p>
+    </footer>
+</body>
+</html>
